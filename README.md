@@ -1,6 +1,7 @@
 PHP Blog
 
 In diesem Projekt wurde ein Blog erstellt.
+Der PHP Blog dient der eigenen Weiterentwicklung. Hierbei stand die Anwendung von PHP im Vordergrund.
 Es gibt einen Userbereich, der nur mittels E-Mail und Passwort erreicht wird.
 Hier können neue Kategorien und neue Blogeinträge, mittels Formular erstellt werden.
 
