@@ -9,3 +9,7 @@ werden die Blogeinträge und die Kategorien angezeigt.
 
 Zum Einrichten kann das ganze Projekt in den htdocs-Ordner kopiert und
 die Daten "blog_oop.sql" in die Datenbank importiert werden.
+
+Folgender Testuser mit Testdaten ist bereits eingerichtet:
+E-Mail: super@user.de
+Passwort: user
