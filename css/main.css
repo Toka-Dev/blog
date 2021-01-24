@@ -1,0 +1,207 @@
+/**********************************/
+/********** BASIC STYLES **********/
+/**********************************/
+
+body {
+	font-family: verdana;
+	font-size: 14px;
+	box-sizing: border-box;
+	background-color: rgb(255, 228, 196);
+}
+header {
+	text-align: right;
+}
+
+/******************************************/
+/********** HTML ELEMENTS STYLES **********/
+/******************************************/
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+main > div:first-child {
+	flex-basis: 800px;
+	flex-shrink: 1;
+	border: 2px solid gray;
+	padding: 10px;
+	margin-right: 10px;
+}
+main > div:last-child {
+	flex-basis: 300px;
+	flex-shrink: 1;
+	border: 2px solid gray;
+	padding: 10px;
+}
+h1 {
+	color: firebrick;
+	letter-spacing: 0.3em;
+	font-size: 2rem;
+	text-align: center;
+}
+h3 {
+	color: rgb(100, 98, 98);
+}
+a {
+	text-decoration: none;
+	color: firebrick;
+}
+a:hover {
+	color: blue;
+}
+
+/********** FORM STYLES **********/
+input, textarea, select {
+	border-radius: 5px;
+}
+input, textarea {
+	margin: 5px 0;
+	padding: 5px;
+	width: 80%;
+}
+textarea {
+	height: 100px;
+	font-family: verdana;
+}
+input[type="submit"] {
+	width: 40%;
+	background-color: blue;
+	color: white;
+}
+
+/********** TABLES **********/
+table {
+	width: 100%; 
+	font-family: courier new; 
+	font-size: 0.9em; 
+}
+table, td { 
+	border: 1px solid teal; 
+	border-collapse: collapse;
+}
+th {
+	background-color: lightblue; 
+	padding: 10px;
+}
+td {
+	padding: 10px;  
+	text-align: center; 
+	color: teal;
+}
+tr:nth-child(even) {
+	background-color: #eee;
+}
+tr:hover {
+	background-color: #dee;
+}
+
+/*****************************/
+/********** CLASSES **********/
+/*****************************/
+
+.specialP {
+	text-align: center;
+}
+
+/********** FLOATING **********/
+.fleft {
+	float: left;
+}
+.fright {
+	float: right;
+}
+.clearer {
+	clear: both;
+	width: 0px;
+	height: 0px;
+}
+
+/********** BLOG ENTRY STYLES **********/
+.blogCategory {
+	text-align: right;
+}
+.blogHeadline {
+	color: firebrick;
+}
+.blogInfo {
+	color: gray;
+}
+.blogImage {
+	width: 30%;
+	padding: 0px 5px;
+}
+.blogHr {
+	border: 0px dashed gray;
+	border-bottom: 2px dashed gray;
+}
+
+/********** CATEGORY ENTRY STYLES **********/
+.categoryEntrys {
+	text-align: center;
+}
+.categoryEntrys > p {
+	margin: 25px 0;
+}
+.categoryEntrys > p > a {
+	color: gray;
+}
+.categoryEntrys > p > a:hover {
+	color: blue;
+}
+
+/********** USER MESSAGES STYLES **********/
+.error {
+	color: red;
+}
+.success {
+	color: green;
+}
+.info {
+	color: darkorange;
+}
+.marker {
+	color: darkred;
+	font-size: 1.1em;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+/********** SPECIAL POPUP MESSAGES STYLES **********/
+popupBox {
+	border: 1px solid darkorange;
+	box-shadow: 20px 10px 25px 0px rgba(51,51,51,0.5);
+	border-radius: 10px;
+	background-color: rgba(230,230,230,0.9);
+	width: 50%;
+	margin: auto;	
+	text-align: center;
+	color: #666;
+	padding: 25px;
+	position: absolute;
+   margin: auto;
+	left: 25%;
+	top: 40%;
+}
+popupBox p {
+	color: black;
+}
+
+popupBox a {
+	border-radius: 5px;
+	padding: 5px 8px;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+popupBox a:hover, popupBox a.button:hover {
+	background-color: rgba(255,140,0,0.3);
+}
+popupBox a.button {
+	background-color: rgba(255,255,255,0.3);
+	border: 1px solid gray;
+	color: gray;
+}
+popupBox a.button:hover {
+	color: black;
+	cursor: pointer;
+}
